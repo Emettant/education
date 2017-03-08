@@ -1,0 +1,40 @@
+
+sudo apt-get install xrdp
+sudo apt-get install xfce4
+
+sudo apt-get install vim
+
+sudo apt-get install dconf-tools
+
+dpkg -i google-chrome-stable_current_amd64.deb
+
+sudo apt-get install python3-pip
+
+sudo pip3 install vitualen
+sudo apt-get remove --auto-remove python3-pip
+
+# to build cryptography, to install quandl
+sudo apt-get install libssl-dev
+sudo apt-get install build-essential libssl-dev libffi-dev python-dev
+
+sudo apt-get install python3-dev
+sudo apt-get remove python-dev
+sudo apt-get remove python3-pip
+
+sudo apt-get install git
+sudo apt-get install gitk
+
+sudo add-apt-repository ppa:octave/stable
+sudo apt install octave
+
+
+under virtualenv py3:
+sklearn
+pandas
+numpy
+
+scipy
+quandl
+pip3 install matplotlib
+
+
